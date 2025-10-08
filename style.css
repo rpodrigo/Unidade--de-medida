@@ -1,0 +1,61 @@
+/*sempre que quisermos trabalhar com caixas (div) relativas e responsivos é indicado saber a ultilização da %. header/ Section/Footer ou até em imagem*/
+
+
+.container {
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* flex-wrap: wrap;  Responsavél por habilitar a quebra de caixa */
+}
+
+.box {
+    background-color: blueviolet;
+}
+
+.caixa-01 {
+    width: 25%;
+    height: 200px;
+
+}
+
+.caixa-02 {
+    width: 50%;
+    height: 200px;
+
+}
+
+.caixa-03 {
+    width: 25%;
+    height: 200px;
+}
+
+.div-01 {
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box {
+    background-color: blueviolet;
+}
+
+.caixa-04 {
+    width: 50%;
+    height: 200px;
+}
+
+.caixa-05 {
+    width: 25%;
+    height: 200px;
+}
+
+.caixa-06 {
+    width: 25%;
+    height: 200px;
+}
