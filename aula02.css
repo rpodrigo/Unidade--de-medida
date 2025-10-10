@@ -1,0 +1,44 @@
+/*define a base global de configuração*/
+
+
+ *{
+   font-family:  Verdana, Geneva, Tahoma, sans-serif;
+   color: white;
+   margin: 0; /*zerando margin do html*/
+   padding: 0; /*zerando margin do css*/
+}
+
+.cabecalho {
+    background-color:#df931b ; /*cor de fundo do header*/
+    text-align: center; /*alinhamento do texto*/
+    padding: 2rem; /*2rem == 32 px*/
+
+}
+
+.bactman {
+    background-image: url(imagens/ballots-1195005_1280.dinheirojpg); /*inserindo img*/
+    background-position: center; /*posicionamento da img*/
+    background-size: cover; /*preenchimento total da img*/
+    background-repeat: no-repeat; /*não repitir a img*/
+    background-attachment: fixed; /*posicionamento fixo da img*/
+    padding: 19rem; /*unidade de medida responsiva*/
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem; /*poderiamos usar 20px*/
+    padding: 2rem; /* = 32px/
+    flex-wrap: wrap; /*utilizando para quebra das caixas caso necessário*/
+}
+/*Aqui estamos alterando/estilizando as DIV*/
+.caixa{
+    background-color: #d0dccb;
+    color: white;
+    font-size: 1.2rem;
+    width: 25%; /*largura de todas as caixas em portentagem*/
+    height: 25rem;
+    box-shadow: 10px 10px 20px rgb(rgb(23, 145, 175));
+    min-width: 300px; /*evita que fique muito pequeno*/
+}
