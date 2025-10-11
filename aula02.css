@@ -12,6 +12,11 @@
     background-color:#df931b ; /*cor de fundo do header*/
     text-align: center; /*alinhamento do texto*/
     padding: 2rem; /*2rem == 32 px*/
+   
+    position: sticky; /*Posicionamento do header*/
+    top: 0; /*informado posicionamento ao topo*/
+    left: 0; /*resetando o posicionamento em relação a esquerda*/
+    z-index: 999; /*eixo cartesiano de profundidade dando prioridade para este herder*/
 
 }
 
@@ -29,16 +34,94 @@
     align-items: center;
     justify-content: center;
     gap: 1.5rem; /*poderiamos usar 20px*/
-    padding: 2rem; /* = 32px/
+    padding: 2rem; /* = 32px*/
     flex-wrap: wrap; /*utilizando para quebra das caixas caso necessário*/
 }
 /*Aqui estamos alterando/estilizando as DIV*/
 .caixa{
-    background-color: #d0dccb;
+    background-color: #9e064a;
     color: white;
     font-size: 1.2rem;
     width: 25%; /*largura de todas as caixas em portentagem*/
     height: 25rem;
     box-shadow: 10px 10px 20px rgb(rgb(23, 145, 175));
     min-width: 300px; /*evita que fique muito pequeno*/
+}
+
+.one {
+
+background-image: url(imagens/puppy-1284673_1280.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+.BUTON {
+    color: rgb(129, 128, 128);
+    background-color:rgb(66, 63, 63);
+    border-radius: 15px;
+    width: 8rem;
+    height: 3rem;
+}
+
+.cx3-01 img{
+width: 18.7rem;
+height:18.5rem ;
+}
+.cx3{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+}
+.cx3 {
+
+min-width: 300px;
+
+}
+
+.cx3-02 p{
+color: black;
+
+} 
+.cx3-03 button{
+
+color: black;
+border-radius: 10px;
+width: 15rem;
+height: 2rem;
+
+}
+
+.roda {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: irem;
+    font-size: 1.1rem;
+}
+
+.twu img {
+    height:19rem ;
+    width: 18.7rem;
+}
+
+.twu p {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.cx3-03 img {
+   height:19rem ;
+   width: 19rem;
+
 }
