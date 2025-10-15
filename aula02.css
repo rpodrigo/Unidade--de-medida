@@ -194,4 +194,29 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
+    background-color: #9e064a;
+    padding: 5rem;
+    flex-wrap: wrap;
+}
+
+.footer p {
+    width: 15rem;
+    font-size: 15rem;
+    justify-content: left;
+}
+
+.div-icon {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.rodape ul li a {
+    font-size: 1rem;
+}
+
+.rodape ul li {
+    list-style: none;
 }
